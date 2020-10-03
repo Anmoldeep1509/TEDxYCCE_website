@@ -1,0 +1,85 @@
+:root {
+    --square-size: 70vh;
+    --horiztl-offset: 50vw;
+    --ted-red: #e62b1e;
+    --strap-spec: 30px solid var(--ted-red);
+}
+
+body {
+    background-color: black;
+}
+
+
+.name {
+    color: white;
+    font-family:  Helvetica , sans-serif, Arial;
+    font-size: 50px;
+    text-align: center;
+}
+
+.msg {
+    position: relative;
+
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 50px;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    /* font-size: 50px; */
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+.right {
+    border: 30px solid var(--ted-red);
+    /* height: 100px; */
+
+    transform: rotate(45deg);
+    height: var(--square-size);
+    width: var(--square-size);
+
+    position: absolute;
+    top: 50px;
+    bottom: auto;
+    left: 90vw;
+    /* right: -50vw; */
+
+}
+
+.left {
+    border: var(--strap-spec);
+    /* height: 100px; */
+
+    transform: rotate(45deg);
+    height: var(--square-size);
+    width: var(--square-size);
+
+    position: absolute;
+    top: 50px;
+    bottom: auto;
+    right: 90vw;
+    /* left: -50vw; */
+
+}
+
+.x-graphic {
+    width: 100vw;
+    height: 70vh;
+    z-index: -1;
+}
+
+
+.abt-ted {
+    justify-content: space-between;
+    font-size: medium;
+    text-align: justify;
+}
+
+.ted {
+    display: inline;
+    color: var(--ted-red);
+}
