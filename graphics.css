@@ -8,6 +8,8 @@
 
 body {
     background-color: black;
+    overflow-x: hidden;
+
 }
 
 
@@ -24,6 +26,7 @@ body {
     top: 50px;
     bottom: auto;
     left: 90vw;
+    z-index: -1;
     /* right: -50vw; */
 
 }
@@ -40,6 +43,7 @@ body {
     top: 50px;
     bottom: auto;
     right: 90vw;
+
     /* left: -50vw; */
 
 }
@@ -48,4 +52,5 @@ body {
     width: 100vw;
     height: 70vh;
     z-index: -1;
+
 }
