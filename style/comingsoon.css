@@ -28,8 +28,12 @@
   z-index: 1;
 }
 
+.venue-map {
+  animation-delay: 1.5s;
+}
+
 .venue {
-  animation-delay: 5s;
+  animation-delay: 1.5s;
 }
 .msg {
   /* position: fixed; */
