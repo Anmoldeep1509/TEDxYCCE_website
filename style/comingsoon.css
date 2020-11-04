@@ -17,6 +17,23 @@
   margin-top: 20;
 }
 
+@media (max-width: 576px) {
+  .cover {
+    /* background-image: url(); short image url here for xxx * 400 */
+    align-items: flex-start;
+    height: 400px;
+  }
+  .msg {
+    font-size: 1rem;
+  }
+  .venue-map > iframe {
+    margin-top: 150px;
+  }
+  .venue > h2 {
+    font-size: x-large;
+  }
+}
+
 .overlay {
   background-color: rgba(0, 0, 0, 0.7);
   top: 0px;
